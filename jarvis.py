@@ -1,3 +1,6 @@
+__email__ = "nileskh2504@gmail.com"
+__author__ = "nileskh2504"
+
 import os, sys, random, win32com.client, re
 
 from src.dark import dark_light
@@ -10,6 +13,7 @@ from src.misc import get_wiki, make_call, take_screenshot
 from win32com.client import constants
 
 voiceOut = win32com.client.Dispatch('SAPI.spvoice')
+
 
 def run_jarvis():
     wav_play()
